@@ -1,8 +1,8 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import App from "./App";
-import GetSourceTypeByUrl from "./Indentification";
+import App from "../App";
+import GetSourceTypeByUrl from "../Indentification";
 
 const url_suite = [
     ["https://maritimeboundaries.noaa.gov/arcgis/rest/services/MaritimeBoundaries/US_Maritime_Limits_Boundaries/MapServer", "ImageArcGISRest"]
